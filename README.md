@@ -18,7 +18,7 @@ tuist install
 tuist cache             # stores EngineKit, Feature, VendorWrapper
 tuist generate --no-open
 xcodebuild build -workspace App.xcworkspace -scheme App \
-  -destination 'generic/platform=iOS Simulator' -derivedDataPath DerivedData
+  -destination 'platform=iOS Simulator,name=iPhone 17 Pro' -derivedDataPath DerivedData
 ```
 
 Fails with:
